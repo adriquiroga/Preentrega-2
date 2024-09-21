@@ -1,7 +1,7 @@
 #productos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Distribuye los productos equitativamente */
+  justify-content: space-around; 
 }
 
 .producto {
@@ -9,7 +9,7 @@
   padding: 20px;
   margin: 10px;
   text-align: center;
-  width: 200px; /* Establece un ancho para los productos */
+  width: 200px;
 }
 
 #carrito {

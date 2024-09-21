@@ -58,7 +58,7 @@ function finalizarCompra() {
   const listaResumen = document.getElementById("detalle-compra");
   const totalFinal = document.getElementById("total-final");
 
-  listaResumen.innerHTML = ""; // Limpiar el contenido previo del resumen
+  listaResumen.innerHTML = ""; 
   let total = 0;
 
   for (let nombreProducto in carrito) {
@@ -70,7 +70,7 @@ function finalizarCompra() {
   }
 
   totalFinal.textContent = `Total final: $${total}`;
-  resumenDiv.style.display = "block"; // Mostrar el resumen
+  resumenDiv.style.display = "block"; 
 }
 
 document.getElementById("finalizar-compra").addEventListener("click", () => {
@@ -80,6 +80,6 @@ document.getElementById("finalizar-compra").addEventListener("click", () => {
   mostrarCarrito();
 });
 
-// Inicialización
+
 renderizarProductos();
 mostrarCarrito();
